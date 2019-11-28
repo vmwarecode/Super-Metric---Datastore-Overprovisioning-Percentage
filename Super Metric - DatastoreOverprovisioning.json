@@ -1,0 +1,1 @@
+{"c5e52646-a8be-4c84-874f-f8b01e4ec55f":{"resourceKinds":[{"resourceKindKey":"Datastore","adapterKindKey":"VMWARE"}],"modificationTime":1574783902718,"name":"Datastore Overprovisioning %","formula":"(${this, metric=diskspace|provisioned}/${this, metric=diskspace|capacity})*100","description":""}}
